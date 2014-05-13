@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency "capistrano", "~>2.13"
+  gem.add_runtime_dependency "capistrano", "~>3"
 end
